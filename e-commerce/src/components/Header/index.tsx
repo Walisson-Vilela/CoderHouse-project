@@ -5,7 +5,7 @@ const Header = () => {
 
     return (
 
-        <nav className='navBar'>
+        <nav className='w-full flex justify-between items-center p-5 bg-white shadow-xl'>
             <span>Nome da Compania</span>
             <ul style={{ display: 'flex' }}>
                 <li>Features</li>
