@@ -15,6 +15,10 @@ const Hero = () => {
                     </div>
                 </React.Fragment>
             ))}
+                    <div>
+                        <button >Voltar</button>
+                        <button >Cadastrar</button>
+                    </div>
 
         </>
     )
