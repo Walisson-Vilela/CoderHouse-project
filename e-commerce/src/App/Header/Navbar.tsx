@@ -1,3 +1,5 @@
+import CarWidget from "./CarWidget";
+
 interface Iprops {
     name: string;
 }
@@ -11,10 +13,11 @@ const Header = ({name}: Iprops) => {
         <li className="mx-2">Premium</li>
         <li className="mx-2">Suporte</li>
         <li >
-          <button className=" bg-primaryColor rounded-md outline outline-cyan-500 text-white px-3 py-1">
+          <button className="mx-2 bg-primaryColor rounded-md outline outline-cyan-500 text-white px-3 py-1">
             Cadastro
           </button>
         </li>
+        <CarWidget />
       </ul>
     </nav>
   );
