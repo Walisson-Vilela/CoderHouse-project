@@ -1,4 +1,4 @@
-import CarWidget from "./CarWidget";
+import CartWidget from "./CartWidget";
 
 interface Iprops {
     name: string;
@@ -17,7 +17,7 @@ const Header = ({name}: Iprops) => {
             Cadastro
           </button>
         </li>
-        <CarWidget />
+        <CartWidget />
       </ul>
     </nav>
   );
