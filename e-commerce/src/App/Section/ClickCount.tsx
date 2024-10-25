@@ -1,19 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 // import { format } from "date-fns";
 
 const ClickCount = () => {
   const [count, setCount] = useState<number>(0);
   const [date, setDate] = useState<Date | null>(null);
 
-const handleClick = () => {
+  const handleClick = () => {
     setCount((value) => value + 1);
-    setDate(new Date())
-}
+  };
+
+  useEffect(() => {
+    if(count > 0) {
+    setDate(new Date());
+    }
+  }, [count]);
 
   return (
     <div>
       <p>
-        Quantidades clicadas = {count}, no dia {date?.toLocaleString()} 
+        Quantidades clicadas = {count}, no dia {date?.toLocaleString()}
       </p>
       <button onClick={handleClick}>Clique aqui</button>
       <br />
