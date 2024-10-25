@@ -4,7 +4,7 @@ import ItemListContainer from "./Section/ItemListContainer";
 function App() {
   return (
     <div className="w-screen">
-      <Header name={"WALISSON"} />
+      <Header name={"Walisson"} />
       <ItemListContainer/>
     </div>
   );
