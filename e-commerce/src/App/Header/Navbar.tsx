@@ -10,7 +10,7 @@ const Header = ({ name }: Iprops) => {
   return (
     <nav className="w-full flex justify-between items-center p-5 bg-white shadow-md">
       <div className="w-3/12 flex flex-row items-center">
-        <span className="mr-6">Empresa de {name}</span>
+        <span className="mr-6">EMPRESA DE {name}</span>
         <div className="mx-2">
           <img src={BrazilFlagImg} className="w-8 cursor-pointer " alt="Brazil flag Icon" />
         </div>
@@ -19,10 +19,10 @@ const Header = ({ name }: Iprops) => {
         </div>
       </div>
       <ul className="flex flex-row items-center"> 
-        <li className="mx-2">Armas</li>
-        <li className="mx-2">Poções</li>
-        <li className="mx-2">Livros</li>
-        <li className="mx-2">Cancelar</li>
+        <li className="mx-2">ARMAS</li>
+        <li className="mx-2">POÇÕES</li>
+        <li className="mx-2">LIVROS</li>
+        <li className="mx-2">CANCELAR</li>
         <CartWidget />
       </ul>
     </nav>
