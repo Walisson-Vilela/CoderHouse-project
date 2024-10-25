@@ -1,9 +1,43 @@
-import React from 'react'
+import React from "react";
 
 const ItemListContainer = () => {
   return (
-    <div>ItemListContainer</div>
-  )
-}
+    <section className="overflow-y-auto max-h-96 border-4 my-2 border-white rounded-md w-8/12 flex flex-col justify-between items-center p-5 bg-gradient-to-t from-blue-950/60 to-blue-400/40 shadow-md">
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+    <div>Produto</div>
+  </section>
+  );
+};
 
-export default ItemListContainer
+export default ItemListContainer;

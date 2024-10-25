@@ -29,7 +29,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: NomeDaSuaFonte, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../src/images/shopBackground.png");
   background-size: cover; /* Faz com que a imagem cubra toda a área */
   background-position: center; /* Centraliza a imagem */
