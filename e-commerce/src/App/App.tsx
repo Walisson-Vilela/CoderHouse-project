@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="w-screen p-2 ">
       <div class="grid grid-cols-3 gap-4">
-        <Header name={"Walisson"} />
+        <Header/>
         <ProductDescription />
         <img src="#" />
         <div className="grid col-span-2 gap-4">
