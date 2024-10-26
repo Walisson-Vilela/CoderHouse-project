@@ -10,7 +10,6 @@ function App() {
       <div className="grid grid-cols-3 gap-4 relative">
         <Header />
         <ProductDescription />
-
         <div
           className=" col-span-1 -mx-8"
           style={{ backgroundImage: `url(${PersonaImg})`,
@@ -18,7 +17,6 @@ function App() {
           backgroundSize: 'cover' }}
         >
         </div>
-
         <div className="grid col-span-2 gap-4 h-full z-10 relative">
           <ItemListContainer />
           <PurchaseSummary />
