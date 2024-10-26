@@ -5,11 +5,16 @@ import PurchaseSummary from "./Section/PurchaseSummary";
 
 function App() {
   return (
-    <div className="w-screen p-2">
-      <Header name={"Walisson"} />
-      <ProductDescription />
-      <ItemListContainer />
-      <PurchaseSummary />
+    <div className="w-screen p-2 ">
+      <div class="grid grid-cols-3 gap-4">
+        <Header name={"Walisson"} />
+        <ProductDescription />
+        <img src="#" />
+        <div className="grid col-span-2 gap-4">
+          <ItemListContainer />
+          <PurchaseSummary />
+        </div>
+      </div>
     </div>
   );
 }
