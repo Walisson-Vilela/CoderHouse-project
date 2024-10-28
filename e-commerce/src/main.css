@@ -24,6 +24,7 @@
 }
 
 body {
+  cursor: url('../src/images/cursor-hand.png'), auto; 
   margin: 0;
   display: flex;
   min-width: 320px;
