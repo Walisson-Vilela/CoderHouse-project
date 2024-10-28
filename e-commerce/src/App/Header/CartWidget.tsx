@@ -1,10 +1,10 @@
 import React from "react";
-import CartWidgetImg from "../../images/trunk.png";
+import CartWidgetImg from "../../images/cart.svg";
 
 const CarWidget = () => {
   return (
     <div className="mx-2">
-      <img src={CartWidgetImg} className="w-12" alt="Dogs Icon" />
+      <img src={CartWidgetImg} className="w-10" alt="Dogs Icon" />
     </div>
   );
 };
