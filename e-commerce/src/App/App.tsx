@@ -2,7 +2,7 @@ import { Header } from "./Header/Navbar";
 import ItemListContainer from "./Section/ItemListContainer";
 import ProductDescription from "./Section/ProductDescription";
 import PurchaseSummary from "./Section/PurchaseSummary";
-import PersonaImg from "../images/persona1.png";
+import PersonaImg from "../images/persona.png";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Header />
         <ProductDescription />
         <div
-          className=" col-span-1 -mx-8"
+          className=" col-span-1 "
           style={{ backgroundImage: `url(${PersonaImg})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover' }}

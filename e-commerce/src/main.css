@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "NomeDaSuaFonte";
+  font-family: "CustomFont";
   src: url("../src/fonts/outline_pixel-7_solid.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -28,7 +28,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  font-family: NomeDaSuaFonte, sans-serif;
+  font-family: CustomFont, sans-serif;
   font-size: 1.5rem;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../src/images/shopBackground.png");
   background-size: cover; /* Faz com que a imagem cubra toda a área */
