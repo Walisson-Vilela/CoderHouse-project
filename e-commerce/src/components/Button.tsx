@@ -15,12 +15,10 @@ const Button = ({ name, onClick, disabled }: Iprops) => {
       disabled={disabled}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`h-9 items-center flex border-2 border-t-white rounded-md px-2 shadow-md transition-transform duration-110 ${
-        isHovered ? 'transform scale-105' : ''
-      } ${
+      className={`text-white h-9 items-center flex rounded p-4 shadow-md text-center justify-center ${
         disabled
-          ? "bg-gray-400 cursor-not-allowed" // Cor e estilo quando desabilitado
-          : "bg-gradient-to-t from-blue-800 to-blue-300 border-indigo-400"
+          ? "bg-gray-400 cursor-not-allowed"
+          : "bg-primaryColor"
       }`}
     >
       {name}
