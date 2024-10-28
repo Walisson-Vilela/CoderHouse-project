@@ -6,37 +6,7 @@ const ItemListContainer = () => {
       <div className="flex-col justify-between items-center p-5 ">
         <div>Produto</div>
         <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
-        <div>Produto</div>
+       
       </div>
     </section>
   );
