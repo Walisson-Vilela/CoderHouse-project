@@ -7,14 +7,14 @@ const items = [
     title: "Música",
     description: "CD RBD",
     price: 10.0,
-    pictureUrl: "../../images/rbd.jpg",
+    pictureUrl: "/public/images/rbd.jpg",
   },
   {
     id: 2,
     title: "Livro",
     description: "O Senhor dos Anéis - As duas torres",
     price: 20.0,
-    pictureUrl: "../../images/senhor.png",
+    pictureUrl: "/public/images/senhor.png",
   },
 ];
 
@@ -22,7 +22,7 @@ console.log(items[1].pictureUrl);
 
 const ItemListContainer = () => {
   return (
-    <div>
+    <div >
       <ItemList items={items} />
     </div>
   );

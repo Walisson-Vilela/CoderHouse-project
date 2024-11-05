@@ -48,7 +48,7 @@ const ItemList = ({ items }: IProps) => {
   }
 
   return (
-    <div>
+    <div className="grid grid-cols-4 gap-4">
       {itemsData.map((item) => (
         <Item key={item.id} item={item} /> // Passa um item individual para o Item
       ))}

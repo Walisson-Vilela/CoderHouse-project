@@ -1,5 +1,5 @@
 import React from "react";
-import CartWidgetImg from "../../images/cart.svg";
+import CartWidgetImg from "../../../public/images/cart.svg"
 
 const CarWidget = () => {
   return (

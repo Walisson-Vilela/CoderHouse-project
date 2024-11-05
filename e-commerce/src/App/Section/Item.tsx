@@ -17,7 +17,7 @@ const Item = ({ item }: IProps) => {
     <div className="border border-black rounded-sm  text-center flex justify-center flex-col">
       <h1 className="bg-slate-100 p-2 font-semibold">{item.title}</h1>
       <div className="p-4 flex flex-col justify-center text-center items-center">
-        <img src={item.pictureUrl} alt="Imagem" />
+        <img className="w-full h-auto" src={item.pictureUrl} alt="Imagem" />
         <p>{item.description}</p>
         <Button name="Veja mais detalhes do produto" />
       </div>
