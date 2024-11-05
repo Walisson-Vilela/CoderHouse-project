@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 
 const dados = [
-  { "id": 1, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 2, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 3, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 4, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 5, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 6, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 7, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 8, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 9, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
-  { "id": 10, "nome": "Walisson", "descricao": "Um texto qualquer", "valor": 10 },
+  { id: 1, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 2, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 3, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 4, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 5, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 6, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 7, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 8, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 9, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
+  { id: 10, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
 ];
 
 interface ICard {
@@ -42,15 +42,15 @@ const Card = ({ image }: Iprops) => {
       setLoading(true);
       const result = await handleGetCards();
 
-      const listProduct = result.map(product => {
-        return{
-            ...product,
-            id_name: product.id + product.nome
-        }
-      })
+      const listProduct = result.map((product) => {
+        return {
+          ...product,
+          id_name: product.id + product.nome,
+        };
+      });
 
-      console.log("listProduct", listProduct)
-      console.log("result", result)
+      console.log("listProduct", listProduct);
+      console.log("result", result);
 
       setItems(result);
       setLoading(false);
@@ -74,6 +74,12 @@ const Card = ({ image }: Iprops) => {
           <img src={image} alt="" />
         </>
       )}
+      {items.map((item) => (
+        <>
+          <h1 key={item.id}>{item.nome}</h1>
+          <h1 key={item.id}>{item.valor}</h1>
+        </>
+      ))}
     </div>
   );
 };
