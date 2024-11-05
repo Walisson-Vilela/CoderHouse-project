@@ -4,9 +4,10 @@ import Item from "./Item";
 // Defina um tipo para o item (ICard)
 interface ICard {
   id: number;
-  nome: string;
-  descricao: string;
-  valor: number;
+  title: string;
+  description: string;
+  price: number;
+  pictureUrl: string;
 }
 
 interface IProps {

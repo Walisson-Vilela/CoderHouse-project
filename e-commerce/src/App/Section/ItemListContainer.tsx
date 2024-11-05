@@ -2,9 +2,23 @@ import React from "react";
 import ItemList from "./ItemList";
 
 const items = [
-  { id: 1, nome: "Walisson", descricao: "Um texto qualquer", valor: 10 },
-  { id: 2, nome: "João", descricao: "Outro texto qualquer", valor: 20 },
+  {
+    id: 1,
+    title: "Música",
+    description: "CD RBD",
+    price: 10.0,
+    pictureUrl: "../../images/rbd.jpg",
+  },
+  {
+    id: 2,
+    title: "Livro",
+    description: "O Senhor dos Anéis - As duas torres",
+    price: 20.0,
+    pictureUrl: "../../images/senhor.png",
+  },
 ];
+
+console.log(items[1].pictureUrl);
 
 const ItemListContainer = () => {
   return (
