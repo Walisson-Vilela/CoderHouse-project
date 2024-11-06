@@ -8,9 +8,22 @@ export async function get(url) {
 }
 
 export async function post(url, data) {
-  return axios.post(BASE_URL + url, data, {
+  return axios.post(url, data, {
     headers: {
       Token: "walisson.vilela@hotmail.com",
     },
   });
 }
+
+export async function put(url, data) {
+  return axios.put(url, data);
+}
+
+export async function deleteData(url) {
+  return axios.delete(url);
+}
+
+export async function patch(url, data) {
+    return axios.patch(url, data);
+  }
+  
