@@ -1,13 +1,15 @@
 import React, { useState } from "react";
-import ItemListContainer from "./ItemListContainer";
-import ItemCount from "./ItemCount";
+// import ItemListContainer from "./ItemListContainer";
+// import ItemCount from "./ItemCount";
+import Card from "../../components/Card";
 
 const Section = () => {
 
   return (
     <div className="p-4">
-      <ItemListContainer />
-      <ItemCount />
+      <Card />
+      {/* <ItemListContainer /> */}
+      {/* <ItemCount /> */}
     </div>
   );
 };

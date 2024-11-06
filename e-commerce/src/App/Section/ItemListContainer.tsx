@@ -18,8 +18,6 @@ const items = [
   },
 ];
 
-console.log(items[1].pictureUrl);
-
 const ItemListContainer = () => {
   return (
     <div >
