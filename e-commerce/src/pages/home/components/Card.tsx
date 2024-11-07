@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { deleteData, get, post, put } from "../services/api.services";
-import { Loading } from "./Loading";
+import { deleteData, get, post, put } from "../../../services/api.services";
+import { Loading } from "../../../components/Loading";
 
 const Card = () => {
   useEffect(() => {
@@ -8,7 +8,7 @@ const Card = () => {
       // const result = await get("pokemon/ditto");
       // const result = await post("http://localhost:3000/posts", { "title": "Walisson", "views": 500});
       // const result = await put("http://localhost:3000/posts/339d", { "title": "Vilela", "views": 500});
-      const result = await deleteData("http://localhost:3000/posts/756b");
+      // const result = await deleteData("http://localhost:3000/posts/");
 
       // const data = {
       //   nome: "Walisson",
@@ -18,9 +18,6 @@ const Card = () => {
 
       // const result = await put("/character", data);
 
-
-
-      console.log(result);
     };
     onMount();
   }, []);

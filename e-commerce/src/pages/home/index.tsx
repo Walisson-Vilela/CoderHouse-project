@@ -1,4 +1,4 @@
-import { Header } from "./Header/Navbar";
+import { Header } from "../../components/Header/Navbar";
 import Section from "./Section/Section";
 
 function App() {

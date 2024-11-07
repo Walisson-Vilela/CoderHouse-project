@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Button from "./Button";
+import Button from "../../../components/Button";
 
 const ItemCount = () => {
   const [count, setCount] = useState<number>(1);

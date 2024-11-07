@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Loading } from "../../components/Loading";
-import ItemDetail from "../../components/Card/ItemDetail";
+import { Loading } from "../../../components/Loading";
+import ItemDetail from "../components/ItemDetail";
 
 // Definindo o tipo para um item
 interface IItem {
@@ -30,7 +30,8 @@ const items = [
     dualChip: "Sim",
     ramMemory: "4GB",
     color: "Azul",
-    footer: "Dispositivo liberado para que seja acompanhado da forma que preferir",
+    footer:
+      "Dispositivo liberado para que seja acompanhado da forma que preferir",
   },
   {
     id: 2,
@@ -87,7 +88,8 @@ const ItemDetailContainer = () => {
   return (
     <div className="flex justify-center w-full h-auto">
       {/* Agora estamos passando um único item */}
-      {itemsData.length > 0 && <ItemDetail item={itemsData[0]} />} {/* Passando o primeiro item da lista */}
+      {itemsData.length > 0 && <ItemDetail item={itemsData[0]} />}{" "}
+      {/* Passando o primeiro item da lista */}
     </div>
   );
 };
