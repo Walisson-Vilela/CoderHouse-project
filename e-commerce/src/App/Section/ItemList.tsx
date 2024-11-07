@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Item from "./Item";
+import Item from "../../components/Card/Item";
 
 // Defina um tipo para o item (ICard)
 interface ICard {

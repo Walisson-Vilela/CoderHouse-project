@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../components/Button";
+import Button from "../Button";
 
 // Defina o tipo para o item
 interface IProps {
