@@ -15,9 +15,11 @@ const Button = ({ name, onClick, disabled }: Iprops) => {
       disabled={disabled}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`text-white h-9 items-center flex rounded p-4 shadow-md text-center justify-center ${
+      className={`text-white h-9 items-center flex rounded p-4 shadow-md text-center justify-center transition-colors duration-150 ${
         disabled
           ? "bg-gray-400 cursor-not-allowed"
+          : isHovered
+          ? "bg-cyan-700" // Cor mais clara ao passar o mouse
           : "bg-primaryColor"
       }`}
     >
