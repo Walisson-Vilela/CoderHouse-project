@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "../pages/home/Home";
+import Home from "../pages/home/Home";
 import Login from "../pages/login/Login";
 import { Header } from "../components/header/Navbar";
 
@@ -9,7 +9,7 @@ const Routers = () => {
     <BrowserRouter>
     <Header name={"Walisson"} />
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </BrowserRouter>

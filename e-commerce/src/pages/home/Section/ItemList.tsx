@@ -1,57 +1,33 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Item from "../components/Item";
 
-// Defina um tipo para o item (ICard)
-interface ICard {
-  id: number;
-  title: string;
-  description: string;
-  price: number;
-  pictureUrl: string;
+// Tipagem para o Pokémon
+interface IPokemon {
+  name: string;
+  url: string;
 }
 
 interface IProps {
-  items: ICard[]; // items é uma lista de ICard
+  pokemons: IPokemon[]; // Lista de Pokémons recebidos
+  loading: boolean; // Para exibir o status de carregamento
+  loadMore: () => void; // Função para carregar mais Pokémons
 }
 
-const ItemList = ({ items }: IProps) => {
-  const [itemsData, setItemsData] = useState<ICard[]>([]); // O estado também deve ser uma lista de ICard
-  const [loading, setLoading] = useState<boolean>(false);
-
-  // Função para simular o carregamento dos dados
-  const handleGetCards = (): Promise<ICard[]> => {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(items); // Resolve com os itens passados pela prop
-      }, 3000); // Espera 3 segundos para simular uma requisição
-    });
-  };
-
-  useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true); // Indica que está carregando
-      try {
-        const result = await handleGetCards();
-        setItemsData(result); // Atualiza o estado com os dados recebidos
-      } catch (error) {
-        console.error("Erro ao carregar os dados:", error);
-      } finally {
-        setLoading(false); // Desativa o loading após o carregamento
-      }
-    };
-
-    fetchData();
-  }, []); // A dependência vazia faz com que o efeito seja executado apenas uma vez, na montagem do componente
-
-  if (loading) {
-    return <div>Carregando...</div>; // Exibe uma mensagem de loading enquanto os dados não chegam
-  }
-
+const ItemList = ({ pokemons, loading, loadMore }: IProps) => {
   return (
     <div className="grid grid-cols-4 gap-4">
-      {itemsData.map((item) => (
-        <Item key={item.id} item={item} /> // Passa um item individual para o Item
+      {pokemons.map((pokemon) => (
+        <Item key={pokemon.name} pokemon={pokemon} />
       ))}
+      {loading && <div>Carregando...</div>}
+      {!loading && (
+        <button
+          onClick={loadMore}
+          className="mt-4 p-2 bg-blue-500 text-white rounded-md"
+        >
+          Carregar mais Pokémons
+        </button>
+      )}
     </div>
   );
 };
