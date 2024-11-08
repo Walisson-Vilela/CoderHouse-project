@@ -15,19 +15,21 @@ interface IProps {
 
 const ItemList = ({ pokemons, loading, loadMore }: IProps) => {
   return (
-    <div className="grid grid-cols-4 gap-4">
-      {pokemons.map((pokemon) => (
-        <Item key={pokemon.name} pokemon={pokemon} />
-      ))}
-      {loading && <div>Carregando...</div>}
-      {!loading && (
-        <button
-          onClick={loadMore}
-          className="mt-4 p-2 bg-blue-500 text-white rounded-md"
-        >
-          Carregar mais Pokémons
-        </button>
-      )}
+    <div className="w-screen mx-auto px-4 py-4 justify-center flex">
+      <div className="grid grid-cols-4 gap-8">
+        {pokemons.map((pokemon) => (
+          <Item key={pokemon.name} pokemon={pokemon} />
+        ))}
+        {loading && <div>Carregando...</div>}
+        {!loading && (
+          <button
+            onClick={loadMore}
+            className="mt-4 p-2 bg-blue-500 text-white rounded-md"
+          >
+            Carregar mais Pokémons
+          </button>
+        )}
+      </div>
     </div>
   );
 };
