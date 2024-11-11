@@ -40,11 +40,13 @@ const ItemListContainer = () => {
   };
 
   return (
-    <ItemList
-      products={products}
-      loading={loading}
-      loadMore={loadMoreProducts}
-    />
+    <div className="flex justify-center">
+      <ItemList
+        products={products}
+        loading={loading}
+        loadMore={loadMoreProducts}
+      />
+    </div>
   );
 };
 

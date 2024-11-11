@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryColor: "rgb(8 145 178)", // sua cor personalizada
+        primaryColor: "#9C846E", // sua cor personalizada
+        secondaryColor: "#e7d9c7", 
+        tertiaryColor: "#b3997f",
+        complementarColor: "#fffff9",
       },
     },
   },

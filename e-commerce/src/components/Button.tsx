@@ -19,11 +19,11 @@ const Button = ({ name, onClick, disabled }: Iprops) => {
         disabled
           ? "bg-gray-400 cursor-not-allowed"
           : isHovered
-          ? "bg-cyan-700" // Cor mais clara ao passar o mouse
+          ? "bg-tertiaryColor" // Cor mais clara ao passar o mouse
           : "bg-primaryColor"
       }`}
     >
-      {name}
+      {name.toUpperCase()}
     </button>
   );
 };
