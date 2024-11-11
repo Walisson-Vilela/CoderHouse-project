@@ -6,7 +6,7 @@ interface Iprops {
   disabled: boolean;
 }
 
-const Button = ({ name, onClick, disabled }: Iprops) => {
+const PrimaryButton = ({ name, onClick, disabled }: Iprops) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -15,12 +15,12 @@ const Button = ({ name, onClick, disabled }: Iprops) => {
       disabled={disabled}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`text-white h-9 items-center flex rounded p-4 shadow-md text-center justify-center transition-colors duration-150 ${
+      className={` h-9 items-center text-sm font-semibold flex rounded-full p-4 text-center justify-center transition-colors duration-150 ${
         disabled
           ? "bg-gray-400 cursor-not-allowed"
           : isHovered
-          ? "bg-tertiaryColor" // Cor mais clara ao passar o mouse
-          : "bg-primaryColor"
+          ? "bg-primaryColor text-white" // Cor mais clara ao passar o mouse
+          : "bg-white text-primaryColor border-primaryColor border-2" // Corrigido "bg-withe" para "bg-white"
       }`}
     >
       {name.toUpperCase()}
@@ -28,4 +28,4 @@ const Button = ({ name, onClick, disabled }: Iprops) => {
   );
 };
 
-export default Button;
+export default PrimaryButton;

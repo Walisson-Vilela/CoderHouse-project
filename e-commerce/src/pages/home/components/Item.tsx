@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "../../../components/Button";
+import PrimaryButton from "../../../components/PrimaryButton";
 
 // Tipagem para os dados do produto
 interface IProducts {
@@ -29,8 +29,8 @@ const Item = ({ product }: ItemProps) => {
             src={product.image}
             alt={product.title}
             className=" w-60 h-70 rounded-md"
-            onLoad={handleImageLoad} // Chama a função quando a imagem é carregada
-            style={{ display: loading ? "none" : "block" }} // Oculta a imagem até que ela seja carregada
+            onLoad={handleImageLoad}
+            style={{ display: loading ? "none" : "block" }}
           />
         </div>
       </div>
@@ -43,7 +43,7 @@ const Item = ({ product }: ItemProps) => {
         </p>
       )}
       <div className="flex flex-col" >
-        <Button name="detalhes" />
+        <PrimaryButton name="detalhes" />
         <p className="mt-2 text-sm text-primaryColor font-light">
           Total em estoque: {product.rating.count}
         </p>

@@ -1,4 +1,5 @@
 import CartWidget from "./CartWidget";
+import SearchInput from "./SearchInput";
 
 interface Iprops {
   name: string;
@@ -6,11 +7,12 @@ interface Iprops {
 
 const Header = ({ name }: Iprops) => {
   return (
-    <nav className="w-full flex justify-between items-center p-4 bg-white shadow-md">
+    <nav className="w-full flex justify-between items-center p-4 bg-white">
       <span>Empresa de {name}</span>
-      <ul className="flex flex-row items-center"> 
+      <div className="flex flex-row items-center w-6/12 justify-end"> 
+        <SearchInput />
         <CartWidget />
-      </ul>
+      </div>
     </nav>
   );
 };

@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: CustomFont, sans-serif;
-  background-color: #fffff9;
+  background-color: #fff;
 }
 
 @media (prefers-color-scheme: light) {
