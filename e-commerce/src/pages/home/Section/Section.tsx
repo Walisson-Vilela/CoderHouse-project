@@ -1,9 +1,13 @@
+import Folder from "./Folder";
 import ItemListContainer from "./ItemListContainer";
-// import ItemCount from "../../components/ItemCount";
-import ItemDetailContainer from "./ItemDetailContainer";
 
 const Section = () => {
-  return <ItemListContainer />;
+  return (
+    <div className="flex items-center flex-col">
+      <Folder />
+      <ItemListContainer />
+    </div>
+  );
 };
 
 export default Section;

@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         primaryColor: "#9C846E", // sua cor personalizada
         secondaryColor: "#e7d9c7", 
-        tertiaryColor: "#b3997f",
+        tertiaryColor: "#f3ece0",
         complementarColor: "#fffff9",
       },
     },

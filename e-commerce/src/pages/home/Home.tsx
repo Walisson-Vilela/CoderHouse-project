@@ -2,7 +2,7 @@ import Section from "./section/Section";
 
 function Home() {
   return (
-    <div className="p-8 w-full" >
+    <div className=" w-full mt-4" >
       <Section />
     </div>
   );
