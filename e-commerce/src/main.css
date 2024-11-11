@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
 /* @font-face {
   font-family: "CustomFont";
   src: url("../src/fonts/outline_pixel-7_solid.ttf") format("truetype");
@@ -24,13 +24,10 @@
 }
 
 body {
-  margin: 0;
+  min-height: 100%;
   display: flex;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
   font-family: CustomFont, sans-serif;
-  background-size: cover; /* Faz com que a imagem cubra toda a área */
-  background-position: center; /* Centraliza a imagem */
 }
 
 @media (prefers-color-scheme: light) {

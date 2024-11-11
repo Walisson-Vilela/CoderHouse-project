@@ -1,36 +1,28 @@
 import React from "react";
 import Item from "../components/Item";
 
-// Tipagem para o Pokémon
-interface IPokemon {
-  name: string;
-  url: string;
+// Tipagem dos produtos
+interface IProducts {
+  title: string;
+  price: number;
+  image: string;
 }
 
 interface IProps {
-  pokemons: IPokemon[]; // Lista de Pokémons recebidos
+  products: IProducts[]; // Lista de produtos recebidos
   loading: boolean; // Para exibir o status de carregamento
-  loadMore: () => void; // Função para carregar mais Pokémons
+  loadMore: () => void; // Função para carregar mais Produtos
 }
 
-const ItemList = ({ pokemons, loading, loadMore }: IProps) => {
+const ItemList = ({ products, loading, loadMore }: IProps) => {
   return (
-    <div className="w-screen mx-auto px-4 py-4 justify-center flex">
-      <div className="grid grid-cols-4 gap-8">
-        {pokemons.map((pokemon) => (
-          <Item key={pokemon.name} pokemon={pokemon} />
-        ))}
-        {loading && <div>Carregando...</div>}
-        {!loading && (
-          <button
-            onClick={loadMore}
-            className="mt-4 p-2 bg-blue-500 text-white rounded-md"
-          >
-            Carregar mais Pokémons
-          </button>
-        )}
-      </div>
-    </div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 auto-rows-min max-w-full p-4">
+    {products.map((product) => (
+      <Item key={product.title} product={product} />
+    ))}
+    {loading && <div>Carregando...</div>}
+  </div>
   );
 };
 
