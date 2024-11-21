@@ -1,5 +1,5 @@
 import React from "react";
-import Item from "../components/Item";
+import Card from "../components/Card/Card";
 
 // Tipagem dos produtos
 interface IProducts {
@@ -17,9 +17,9 @@ interface IProps {
 const ItemList = ({ products, loading, loadMore }: IProps) => {
   return (
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 auto-rows-min max-w-full p-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 auto-rows-min max-w-full p-4">
     {products.map((product) => (
-      <Item key={product.title} product={product} />
+      <Card key={product.title} product={product} />
     ))}
     {loading && <div>Carregando...</div>}
   </div>

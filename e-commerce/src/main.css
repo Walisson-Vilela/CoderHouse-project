@@ -2,46 +2,90 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Reset de estilos */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-/* @font-face {
-  font-family: "CustomFont";
-  src: url("../src/fonts/outline_pixel-7_solid.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  color: rgba(255, 255, 255, 0.87);
-} */
 
+/* Variáveis Globais */
 :root {
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Tema Claro */
+  --primaryColor: #213547;
+  --secondaryColor: rgb(156, 132, 110);
+  --backgroundColor: #ffffff;
+  --textColor: rgba(33, 53, 71, 0.87);
+  --borderColor: #e0e0e0;
+  --buttonBackground: #f9f9f9;
+  --hoverColor: rgb(139, 118, 98);
+
+  /* Tema Escuro */
+  --darkPrimaryColor: #ffffff;
+  --darkSecondaryColor: #ffba08;
+  --darkBackgroundColor: #121212;
+  --darkTextColor: rgba(255, 255, 255, 0.87);
+  --darkBorderColor: #333333;
+  --darkButtonBackground: #1e1e1e;
+  --darkHoverColor: #ff7c0a;
+
+  /* Fontes e sombras */
+  --fontFamily: "CustomFont", sans-serif;
+  --boxShadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Definições Gerais */
 body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: CustomFont, sans-serif;
-  background-color: #fff;
+  font-family: var(--fontFamily);
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-@media (prefers-color-scheme: light) {
+button {
+  background-color: var(--buttonBackground);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--hoverColor);
+}
+
+a {
+  color: var(--primaryColor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondaryColor);
+}
+
+/* Tema Escuro */
+@media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
+    --primaryColor: var(--darkPrimaryColor);
+    --secondaryColor: var(--darkSecondaryColor);
+    --backgroundColor: var(--darkBackgroundColor);
+    --textColor: var(--darkTextColor);
+    --borderColor: var(--darkBorderColor);
+    --buttonBackground: var(--darkButtonBackground);
+    --hoverColor: var(--darkHoverColor);
   }
 }
+
+/* Fontes Personalizadas (comente ou descomente conforme necessário) */
+/*
+@font-face {
+  font-family: "CustomFont";
+  src: url("../src/fonts/outline_pixel-7_solid.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+*/

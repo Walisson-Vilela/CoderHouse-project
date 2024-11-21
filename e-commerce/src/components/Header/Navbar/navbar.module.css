@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* 16px */
+    background-color: white;
+  }
+  
+  .companyName {
+    font-size: 1rem; /* 16px */
+    color: #333; /* Ajuste para cor de texto desejada */
+  }
+  
+  .searchCartContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%; /* Ajuste conforme necessário */
+    justify-content: flex-end;
+  }
+  

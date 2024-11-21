@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import Button from "../../../components/PrimaryButton";
+import Button from "../../../../components/PrimaryButton/PrimaryButton";
+import styles from './itemCount.module.css';
 
 const ItemCount = () => {
   const [count, setCount] = useState<number>(1);
@@ -10,28 +11,27 @@ const ItemCount = () => {
 
   const handleClick = (operation: string) => {
     if (operation === "add") {
-      setCount((prevCount) => prevCount + 1); 
+      setCount((prevCount) => prevCount + 1);
     } else if (operation === "subtract") {
-      setCount((prevCount) => Math.max(prevCount - 1, 0)); // Decrementa o count, sem permitir valores negativos
+      setCount((prevCount) => Math.max(prevCount - 1, 0));
     }
   };
 
   useEffect(() => {
-    setValue(product * count); // Atualiza o value multiplicando o valor base pelo count
+    setValue(product * count);
   }, [count]);
 
   return (
-    <section >
-      <span>Estoque: {stock}</span>
-      <div className="w-3/12 col-span-2 min-h-4 border-4 h-36 flex flex-col justify-between items-left p-5 shadow-md">
-      <div className="flex flex-col justify-between">
-        <div className="flex flex-row mb-4 w-full justify-between items-center">
+    <section className={styles.section}>
+      <span className={styles.stock}>Estoque: {stock}</span>
+      <div className={styles.itemCountContainer}>
+        <div className={styles.controls}>
           <Button
             disabled={false}
             onClick={() => handleClick("subtract")}
             name="-"
           />
-          <span className="mx-4 w-full text-center">{count}</span>
+          <span className={styles.countDisplay}>{count}</span>
           <Button
             disabled={count >= stock}
             onClick={() => handleClick("add")}
@@ -44,7 +44,6 @@ const ItemCount = () => {
           onClick={() => handleClick("add")}
           name="Adicionar ao carrinho"
         />
-      </div>
       </div>
     </section>
   );

@@ -1,0 +1,62 @@
+.cardContainer {
+    width: 18rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cardImageContainer {
+    width: 100%;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cardImageWrapper {
+    width: 10rem; /* Largura do container da imagem */
+    height: 10rem; /* Altura do container da imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cardImage {
+    width: 100%; /* Ajusta a imagem para preencher 100% da largura do contêiner */
+    height: 100%; /* Ajusta a imagem para preencher 100% da altura do contêiner */
+    object-fit: contain; /* Garante que a imagem será redimensionada sem cortar */
+  }
+  
+  .cardTitle {
+    font-size: 0.8rem;
+    color: #333333;
+  }
+  
+  .cardPrice {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  .cardInstallment {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #6c757d;
+  }
+  
+  .cardActions {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardStock {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #6c757d;
+  }
+  

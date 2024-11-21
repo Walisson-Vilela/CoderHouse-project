@@ -1,0 +1,31 @@
+.button {
+    width: 100%;
+    height: 3rem; /* 36px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.875rem; /* 14px */
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 0 1rem; /* 16px */
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+  
+  .default {
+    background-color: white;
+    color: var(--secondaryColor);
+    border: 1px solid rgba(156, 132, 110, 0.3);
+  }
+  
+  .hovered {
+    background-color: var(--primaryColor);
+    color: white;
+  }
+  
+  .disabled {
+    background-color: #cbd5e0; /* gray-400 */
+    color: white;
+    cursor: not-allowed;
+  }
+  

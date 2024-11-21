@@ -1,0 +1,25 @@
+.container {
+    margin-right: 1rem;
+    position: relative;
+  }
+  
+  .input {
+    background-color: rgba(100, 116, 139, 0.1); /* slate-300/30 */
+    height: 3rem; /* 32px */
+    padding: 0.25rem 1rem; /* 4px top/bottom, 16px left/right */
+    border-radius: 9999px; /* rounded-full */
+    font-size: 0.875rem; /* 14px */
+    width: 100%;
+    padding-right: 2.5rem; /* espaço para o ícone */
+    outline-color: var(--secondaryColor); /* primaryColor, ajuste para a cor desejada */
+  }
+  
+  .icon {
+    position: absolute;
+    right: 0.75rem; /* 12px */
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(107, 114, 128, 0.5); /* gray-500/50 */
+    padding-top: 0.125rem; /* ajuste de alinhamento */
+  }
+  

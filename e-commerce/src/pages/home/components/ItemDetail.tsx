@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../../components/PrimaryButton";
+import Button from "../../../components/PrimaryButton/PrimaryButton";
 
 interface Iprops {
   item: {
