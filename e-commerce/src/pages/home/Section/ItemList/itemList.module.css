@@ -1,0 +1,27 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Padrão: 1 coluna */
+    column-gap: 4rem;
+    row-gap: 2rem;
+    auto-rows: min-content;
+    max-width: 100%;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  @media (min-width: 640px) {
+    .gridContainer {
+      grid-template-columns: repeat(2, 1fr); /* 2 colunas para telas maiores que 640px */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .gridContainer {
+      grid-template-columns: repeat(3, 1fr); /* 4 colunas para telas maiores que 1024px */
+    }
+  }
+  

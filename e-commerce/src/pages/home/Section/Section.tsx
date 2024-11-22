@@ -1,10 +1,10 @@
-import Folder from "./Folder";
-import ItemListContainer from "./ItemListContainer";
+import React from "react";
+import ItemListContainer from "./ItemListContainer/ItemListContainer";
+import styles from "./section.module.css";
 
-const Section = () => {
+const Section: React.FC = () => {
   return (
-    <div className="flex items-center flex-col">
-      {/* <Folder /> */}
+    <div className={styles.sectionContainer}>
       <ItemListContainer />
     </div>
   );

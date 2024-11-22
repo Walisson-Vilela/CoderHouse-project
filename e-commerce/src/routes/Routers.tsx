@@ -7,7 +7,6 @@ import { Header } from "../components/Header/Navbar/Navbar";
 const Routers = () => {
   return (
     <BrowserRouter>
-    <Header name={"Walisson"} />
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/login" element={<Login />} /> */}

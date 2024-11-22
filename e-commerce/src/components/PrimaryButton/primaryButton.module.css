@@ -15,12 +15,12 @@
   .default {
     background-color: white;
     color: var(--secondaryColor);
-    border: 1px solid rgba(156, 132, 110, 0.3);
+    border: 1px solid var(--secondaryColor);
   }
   
   .hovered {
-    background-color: var(--primaryColor);
-    color: white;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
   }
   
   .disabled {

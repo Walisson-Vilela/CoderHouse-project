@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "title": "Smartphone Poco X6 Pro",
+        "brand": "Xiaomi",
+        "price": 109.95,
+        "category": "smartphone",
+        "image": "../public/images/smartphones/SmartphonePocoX6 Pro.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "iPhone 14 Pro",
+        "brand": "Apple",
+        "price": 999.99,
+        "category": "smartphone",
+        "image": "../public/images/smartphones/iphone14.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 200
+        }
+    },
+    {
+        "id": 3,
+        "title": "Samsung Galaxy S23",
+        "brand": "Samsung",
+        "price": 799.99,
+        "category": "smartphone",
+        "image": "../public/images/smartphones/samsung-galaxy-s23-ultra-black-transparent-image-free-png.webp",
+        "rating": {
+            "rate": 4.5,
+            "count": 350
+        }
+    },
+    {
+        "id": 4,
+        "title": "Motorola Edge 30",
+        "brand": "Motorola",
+        "price": 499.99,
+        "category": "smartphone",
+        "image": "../public/images/smartphones/MotorolaEdge30.webp",
+        "rating": {
+            "rate": 4.2,
+            "count": 180
+        }
+    },
+    {
+        "id": 5,
+        "title": "OnePlus 11",
+        "brand": "OnePlus",
+        "price": 699.99,
+        "category": "smartphone",
+        "image": "../public/images/smartphones/onePlus11.png",
+        "rating": {
+            "rate": 4.6,
+            "count": 230
+        }
+    },
+    {
+        "id": 6,
+        "title": "Nokia G50",
+        "brand": "Nokia",
+        "price": 249.99,
+        "category": "smartphone",
+        "image": "../public/images/smartphones/nokia-G50-ocean_blue-front_back-int.png",
+        "rating": {
+            "rate": 4.0,
+            "count": 100
+        }
+    },
+    {
+        "id": 7,
+        "title": "Xiaomi Redmi Note 12",
+        "brand": "Xiaomi",
+        "price": 199.99,
+        "category": "smartphone",
+        "image": "../public/images/smartphones/XiaomiRedmiNote12.webp",
+        "rating": {
+            "rate": 4.3,
+            "count": 150
+        }
+    },
+    {
+        "id": 8,
+        "title": "Samsung Galaxy A54",
+        "brand": "Samsung",
+        "price": 349.99,
+        "category": "smartphone",
+        "image": "https://example.com/galaxy-a54.jpg",
+        "rating": {
+            "rate": 4.4,
+            "count": 250
+        }
+    },
+    {
+        "id": 9,
+        "title": "Huawei P50 Pro",
+        "brand": "Huawei",
+        "price": 899.99,
+        "category": "smartphone",
+        "image": "https://example.com/huawei-p50-pro.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 170
+        }
+    },
+    {
+        "id": 10,
+        "title": "Google Pixel 7",
+        "brand": "Google",
+        "price": 599.99,
+        "category": "smartphone",
+        "image": "https://example.com/pixel-7.jpg",
+        "rating": {
+            "rate": 4.3,
+            "count": 220
+        }
+    },
+    {
+        "id": 11,
+        "title": "Sony Xperia 1 IV",
+        "brand": "Sony",
+        "price": 1099.99,
+        "category": "smartphone",
+        "image": "https://example.com/sony-xperia-1-iv.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 190
+        }
+    },
+    {
+        "id": 12,
+        "title": "Realme GT 2 Pro",
+        "brand": "Realme",
+        "price": 549.99,
+        "category": "smartphone",
+        "image": "https://example.com/realme-gt-2-pro.jpg",
+        "rating": {
+            "rate": 4.3,
+            "count": 210
+        }
+    },
+    {
+        "id": 13,
+        "title": "Oppo Find X5 Pro",
+        "brand": "Oppo",
+        "price": 949.99,
+        "category": "smartphone",
+        "image": "https://example.com/oppo-find-x5-pro.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 180
+        }
+    },
+    {
+        "id": 14,
+        "title": "Asus Zenfone 9",
+        "brand": "Asus",
+        "price": 699.99,
+        "category": "smartphone",
+        "image": "https://example.com/asus-zenfone-9.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 150
+        }
+    },
+    {
+        "id": 15,
+        "title": "Vivo V23 Pro",
+        "brand": "Vivo",
+        "price": 799.99,
+        "category": "smartphone",
+        "image": "https://example.com/vivo-v23-pro.jpg",
+        "rating": {
+            "rate": 4.2,
+            "count": 130
+        }
+    },
+    {
+        "id": 16,
+        "title": "ZTE Axon 40 Ultra",
+        "brand": "ZTE",
+        "price": 1099.99,
+        "category": "smartphone",
+        "image": "https://example.com/zte-axon-40-ultra.jpg",
+        "rating": {
+            "rate": 4.4,
+            "count": 160
+        }
+    },
+    {
+        "id": 17,
+        "title": "Lenovo Legion Phone 2 Pro",
+        "brand": "Lenovo",
+        "price": 999.99,
+        "category": "smartphone",
+        "image": "https://example.com/lenovo-legion-phone-2-pro.jpg",
+        "rating": {
+            "rate": 4.3,
+            "count": 120
+        }
+    },
+    {
+        "id": 18,
+        "title": "Sharp Aquos R6",
+        "brand": "Sharp",
+        "price": 699.99,
+        "category": "smartphone",
+        "image": "https://example.com/sharp-aquos-r6.jpg",
+        "rating": {
+            "rate": 4.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 19,
+        "title": "LG Velvet",
+        "brand": "LG",
+        "price": 449.99,
+        "category": "smartphone",
+        "image": "https://example.com/lg-velvet.jpg",
+        "rating": {
+            "rate": 4.0,
+            "count": 110
+        }
+    },
+    {
+        "id": 20,
+        "title": "HTC U12+",
+        "brand": "HTC",
+        "price": 649.99,
+        "category": "smartphone",
+        "image": "https://example.com/htc-u12-plus.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 150
+        }
+    },
+    {
+        "id": 21,
+        "title": "Alcatel 1S 2021",
+        "brand": "Alcatel",
+        "price": 129.99,
+        "category": "smartphone",
+        "image": "https://example.com/alcatel-1s-2021.jpg",
+        "rating": {
+            "rate": 3.5,
+            "count": 70
+        }
+    },
+    {
+        "id": 22,
+        "title": "Huawei Mate 40 Pro",
+        "brand": "Huawei",
+        "price": 1099.99,
+        "category": "smartphone",
+        "image": "https://example.com/huawei-mate-40-pro.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 160
+        }
+    },
+    {
+        "id": 23,
+        "title": "Realme 9 Pro+",
+        "brand": "Realme",
+        "price": 399.99,
+        "category": "smartphone",
+        "image": "https://example.com/realme-9-pro-plus.jpg",
+        "rating": {
+            "rate": 4.4,
+            "count": 110
+        }
+    },
+    {
+        "id": 24,
+        "title": "Samsung Galaxy Z Flip 5",
+        "brand": "Samsung",
+        "price": 1299.99,
+        "category": "smartphone",
+        "image": "https://example.com/galaxy-z-flip-5.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 190
+        }
+    },
+    {
+        "id": 25,
+        "title": "Xiaomi Mi 11 Ultra",
+        "brand": "Xiaomi",
+        "price": 799.99,
+        "category": "smartphone",
+        "image": "https://example.com/mi-11-ultra.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 200
+        }
+    },
+    {
+        "id": 26,
+        "title": "Sony Xperia 10 III",
+        "brand": "Sony",
+        "price": 399.99,
+        "category": "smartphone",
+        "image": "https://example.com/sony-xperia-10-iii.jpg",
+        "rating": {
+            "rate": 4.0,
+            "count": 130
+        }
+    },
+    {
+        "id": 27,
+        "title": "Asus ROG Phone 5",
+        "brand": "Asus",
+        "price": 999.99,
+        "category": "smartphone",
+        "image": "https://example.com/asus-rog-phone-5.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 210
+        }
+    },
+    {
+        "id": 28,
+        "title": "Vivo Y73s",
+        "brand": "Vivo",
+        "price": 299.99,
+        "category": "smartphone",
+        "image": "https://example.com/vivo-y73s.jpg",
+        "rating": {
+            "rate": 4.2,
+            "count": 150
+        }
+    },
+    {
+        "id": 29,
+        "title": "Oppo Reno6 5G",
+        "brand": "Oppo",
+        "price": 499.99,
+        "category": "smartphone",
+        "image": "https://example.com/oppo-reno6-5g.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 120
+        }
+    },
+    {
+        "id": 30,
+        "title": "Nokia X20",
+        "brand": "Nokia",
+        "price": 399.99,
+        "category": "smartphone",
+        "image": "https://example.com/nokia-x20.jpg",
+        "rating": {
+            "rate": 4.0,
+            "count": 100
+        }
+    }
+]

@@ -1,6 +1,6 @@
 .cardContainer {
     width: 18rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 0.5rem;
     background-color: #ffffff;
     display: flex;
@@ -38,7 +38,7 @@
   .cardPrice {
     font-size: 0.8rem;
     font-weight: 600;
-    color: #007bff;
+    color: var(--primaryColor);
   }
   
   .cardInstallment {

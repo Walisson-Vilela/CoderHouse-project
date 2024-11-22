@@ -17,37 +17,6 @@ interface IItem {
   footer: string;
 }
 
-// Simulando a lista de itens que seriam carregados
-const items = [
-  {
-    id: 1,
-    title: "Samsung Galaxy S20 FE 128 GB",
-    description: "CD RBD",
-    price: 10.0,
-    priceConditions: "À vista",
-    pictureUrl: "/images/rbd.jpg", // Corrigindo o caminho
-    internMemory: "64GB",
-    dualChip: "Sim",
-    ramMemory: "4GB",
-    color: "Azul",
-    footer:
-      "Dispositivo liberado para que seja acompanhado da forma que preferir",
-  },
-  {
-    id: 2,
-    title: "Livro",
-    description: "O Senhor dos Anéis - As duas torres",
-    price: 20.0,
-    priceConditions: "À vista",
-    pictureUrl: "/images/senhor.png", // Corrigindo o caminho
-    internMemory: "N/A",
-    dualChip: "N/A",
-    ramMemory: "N/A",
-    color: "Preto",
-    footer: "Edição especial",
-  },
-];
-
 const ItemDetailContainer = () => {
   const [itemsData, setItemsData] = useState<IItem[]>([]); // Agora o estado é um array de IItem
   const [loading, setLoading] = useState<boolean>(false);

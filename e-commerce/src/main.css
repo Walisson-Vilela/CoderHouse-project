@@ -12,13 +12,13 @@
 /* Variáveis Globais */
 :root {
   /* Tema Claro */
-  --primaryColor: #213547;
-  --secondaryColor: rgb(156, 132, 110);
+  --primaryColor:  rgb(254, 147, 39);
+  --secondaryColor: #213547;
   --backgroundColor: #ffffff;
   --textColor: rgba(33, 53, 71, 0.87);
   --borderColor: #e0e0e0;
   --buttonBackground: #f9f9f9;
-  --hoverColor: rgb(139, 118, 98);
+  --hoverColor: #213547;
 
   /* Tema Escuro */
   --darkPrimaryColor: #ffffff;
