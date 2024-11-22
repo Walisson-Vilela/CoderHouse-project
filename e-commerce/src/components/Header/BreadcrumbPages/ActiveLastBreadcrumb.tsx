@@ -8,7 +8,12 @@ const DynamicBreadcrumbs: React.FC = () => {
 
   return (
     <Breadcrumbs aria-label="breadcrumb">
-      <Link style={{fontSize: '0.8rem'}} underline="hover" color="inherit" to="/">
+      <Link
+        style={{ fontSize: "0.8rem" }}
+        underline="hover"
+        color="inherit"
+        to="/"
+      >
         Home
       </Link>
       {pathnames.map((value, index) => {
@@ -19,7 +24,7 @@ const DynamicBreadcrumbs: React.FC = () => {
             {value}
           </span>
         ) : (
-          <Link  underline="hover" color="inherit" to={to} key={to}>
+          <Link underline="hover" color="inherit" to={to} key={to}>
             {value}
           </Link>
         );
