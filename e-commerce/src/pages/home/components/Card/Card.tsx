@@ -37,16 +37,16 @@ const Card = ({ product }: ItemProps) => {
         </div>
       </div>
       <p className={styles.cardTitle}>{product.title}</p>
-      <p className={styles.cardPrice}>Preço: ${product.price}</p>
+      <p className={styles.cardPrice}>R${product.price}</p>
       {product.price > 100 && (
         <p className={styles.cardInstallment}>
-          Em até 2x de ${(product.price / 2).toFixed(2)} sem juros
+          Em até 10x de ${(product.price / 10).toFixed(2)} sem juros
         </p>
       )}
        
       <div className={styles.cardActions}>
         <PrimaryButton name="Comprar" />
-       
+      
       </div>
     </div>
   );

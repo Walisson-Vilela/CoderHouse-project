@@ -24,6 +24,7 @@ const Header = ({ name }: Iprops) => {
         />
         <CartWidget />
       </span>
+      
     </nav>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
-import Products from "../../../../../data/products.json";
+import Products from "../../../../../data/smartphones.json";
 import styles from "./itemListContainer.module.css";
 
 // Definir a tipagem para um produto
@@ -56,6 +56,7 @@ const ItemListContainer: React.FC = () => {
 
   return (
     <div className={styles.container}>
+   
       <ItemList
         products={products}
         loading={loading}

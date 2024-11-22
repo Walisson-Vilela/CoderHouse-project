@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Smartphone Poco X6 Pro",
     "brand": "Xiaomi",
-    "price": 109.95,
+    "price": 1109.95,
     "category": "smartphone",
     "image": "../public/images/smartphones/SmartphonePocoX6 Pro.png",
     "rating": {
@@ -15,7 +15,7 @@
     "id": 2,
     "title": "iPhone 14 Pro",
     "brand": "Apple",
-    "price": 999.99,
+    "price": 4999.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/iphone14.png",
     "rating": {
@@ -27,7 +27,7 @@
     "id": 3,
     "title": "Samsung Galaxy S23",
     "brand": "Samsung",
-    "price": 799.99,
+    "price": 1799.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/samsung-galaxy-s23-ultra-black-transparent-image-free-png.webp",
     "rating": {
@@ -39,7 +39,7 @@
     "id": 4,
     "title": "Motorola Edge 30",
     "brand": "Motorola",
-    "price": 499.99,
+    "price": 1499.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/MotorolaEdge30.webp",
     "rating": {
@@ -63,7 +63,7 @@
     "id": 6,
     "title": "Nokia G50",
     "brand": "Nokia",
-    "price": 249.99,
+    "price": 1249.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/nokia-G50-ocean_blue-front_back-int.png",
     "rating": {
@@ -75,7 +75,7 @@
     "id": 7,
     "title": "Xiaomi Redmi Note 12",
     "brand": "Xiaomi",
-    "price": 199.99,
+    "price": 1199.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/XiaomiRedmiNote12.webp",
     "rating": {
@@ -87,7 +87,7 @@
     "id": 8,
     "title": "Samsung Galaxy A54",
     "brand": "Samsung",
-    "price": 349.99,
+    "price": 1349.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/Samsung Galaxy A54.png",
     "rating": {
@@ -183,7 +183,7 @@
     "id": 16,
     "title": "Lenovo Legion Phone 2 Pro",
     "brand": "Lenovo",
-    "price": 999.99,
+    "price": 2999.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/Lenovo-Legion-2-Pro-Phone_arenamobiles.jpg",
     "rating": {
@@ -195,7 +195,7 @@
     "id": 17,
     "title": "Nokia X20",
     "brand": "Nokia",
-    "price": 399.99,
+    "price": 1399.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/nokia-X20-nordic_blue-front_back-int.png",
     "rating": {
@@ -219,7 +219,7 @@
     "id": 19,
     "title": "Xiaomi Mi 11 Ultra",
     "brand": "Xiaomi",
-    "price": 799.99,
+    "price": 1799.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/XiaomiMi11Ultra.png",
     "rating": {
@@ -231,7 +231,7 @@
     "id": 20,
     "title": "Sony Xperia 10 III",
     "brand": "Sony",
-    "price": 399.99,
+    "price": 1399.99,
     "category": "smartphone",
     "image": "../public/images/smartphones/SonyXperia10III.avif",
     "rating": {
