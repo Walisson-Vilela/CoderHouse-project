@@ -20,7 +20,7 @@
   
   .hovered {
     background-color: var(--secondaryColor);
-    color: var(--primaryColor);
+    color: white;
   }
   
   .disabled {

@@ -17,7 +17,7 @@ const Header = ({ name }: Iprops) => {
       </span>
       <span className={styles.menu}>
         <button className={styles.support}>Suporte</button>
-        <button className={styles.login}>Walisson</button>
+        <span className={styles.login}>Walisson</span>
         <img
           className={styles.person}
           src="../../../../public/images/person.svg"

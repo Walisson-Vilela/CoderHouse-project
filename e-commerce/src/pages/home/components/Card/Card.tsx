@@ -43,11 +43,9 @@ const Card = ({ product }: ItemProps) => {
           Em até 2x de ${(product.price / 2).toFixed(2)} sem juros
         </p>
       )}
-       <p className={styles.cardStock}>
-          Total em estoque: {product.rating.count}
-        </p>
+       
       <div className={styles.cardActions}>
-        <PrimaryButton name="Ver detalhes" />
+        <PrimaryButton name="Comprar" />
        
       </div>
     </div>

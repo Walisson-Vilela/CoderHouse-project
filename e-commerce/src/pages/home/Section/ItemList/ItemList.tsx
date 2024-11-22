@@ -21,6 +21,7 @@ const ItemList: React.FC<IProps> = ({ products, loading }) => {
       {products.map((product) => (
         <Card key={product.title} product={product} />
       ))}
+
       {loading && <div className={styles.loading}>Carregando...</div>}
     </div>
   );
