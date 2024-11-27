@@ -8,6 +8,9 @@
   width: 100%;
   align-items: center;
   border-bottom: #dedede 1px solid;
+  position: sticky; /* Fixa o menu ao rolar */
+  top: 90px; /* Define a posição logo abaixo do Navbar */
+  z-index: 999; /* Mantém acima do restante do conteúdo */
 }
 
 .dropdownContainer {

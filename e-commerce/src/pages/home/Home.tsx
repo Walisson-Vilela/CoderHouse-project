@@ -1,4 +1,4 @@
-import { Header } from "../../components/Header/Navbar/Navbar";
+import Header from "../../components/Header/Navbar/Navbar";
 import SortProductMenu from "../../components/Header/SortProductMenu/SortProductMenu";
 import AsideMenu from "./Menu/AsideMenu";
 import Section from "./section/Section";

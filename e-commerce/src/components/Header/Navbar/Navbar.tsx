@@ -6,7 +6,7 @@ interface Iprops {
   name: string;
 }
 
-const Header = ({ name }: Iprops) => {
+const Navbar = ({ name }: Iprops) => {
   return (
     <nav className={styles.navbar}>
       <span className={styles.companyName}>
@@ -27,4 +27,4 @@ const Header = ({ name }: Iprops) => {
   );
 };
 
-export { Header };
+export default Navbar;

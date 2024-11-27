@@ -7,6 +7,9 @@
   padding: 0 5%;
   background-color: white;
   border-bottom: #dedede 1px solid;
+  position: sticky; /* Mantém o elemento fixo ao rolar */
+  top: 0; /* Fixa no topo */
+  z-index: 1000; /* Garante que fique acima de outros elementos */
 }
 
 .companyName {

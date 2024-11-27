@@ -9,6 +9,22 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "FontRegular";
+  src: url("../src/fonts/Krub-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+@font-face {
+  font-family: "FontSemiBold";
+  src: url("../src/fonts/Krub-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.87);
+}
+
 /* Variáveis Globais */
 :root {
   /* Tema Claro */
@@ -30,7 +46,8 @@
   --darkHoverColor: #ff7c0a;
 
   /* Fontes e sombras */
-  --fontFamily: "CustomFont", sans-serif;
+  --fontFamily: "FontRegular", sans-serif;
+  --fontFamilySemiBold: "FontSemiBold", sans-serif;
   --boxShadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -83,7 +100,7 @@ a:hover {
 /* Fontes Personalizadas (comente ou descomente conforme necessário) */
 /*
 @font-face {
-  font-family: "CustomFont";
+  font-family: "FontRegular";
   src: url("../src/fonts/outline_pixel-7_solid.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
