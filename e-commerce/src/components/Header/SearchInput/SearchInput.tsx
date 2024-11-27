@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './searchInput.module.css';
 
-const SearchInput = () => {
+const SearchInput: React.FC = () => {
   return (
     <div className={styles.container}>
       <input

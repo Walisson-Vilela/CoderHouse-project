@@ -53,3 +53,14 @@
   height: auto;
   cursor: pointer;
 }
+.title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.form {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}

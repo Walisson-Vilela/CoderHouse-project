@@ -35,6 +35,7 @@
   --borderColor: #e0e0e0;
   --buttonBackground: #f9f9f9;
   --hoverColor: #213547;
+  --hoverBackgroundColor:  rgb(254, 147, 39); /* Ajuste conforme sua paleta */
 
   /* Tema Escuro */
   --darkPrimaryColor: #ffffff;
@@ -82,6 +83,14 @@ a {
 
 a:hover {
   color: var(--secondaryColor);
+}
+
+input {
+  border-radius: 50px;
+  border:1px #ccc solid;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  outline-color: var(--secondaryColor);
 }
 
 /* Tema Escuro */

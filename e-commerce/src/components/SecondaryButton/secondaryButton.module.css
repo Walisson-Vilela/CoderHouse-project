@@ -1,0 +1,26 @@
+.button {
+  width: 100%;
+  height: 2.5rem; /* 36px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 0 1rem; /* 16px */
+  transition: background-color 0.15s ease, color 0.15s ease;
+  background-color: var(--secondaryColor);
+  color: white;
+}
+
+.button:hover:not(.disabled) {
+  background-color: var(--hoverBackgroundColor);
+  color: #ffffff;
+}
+
+.disabled {
+  background-color: #cbd5e0; /* gray-400 */
+  color: white;
+  cursor: not-allowed;
+}
