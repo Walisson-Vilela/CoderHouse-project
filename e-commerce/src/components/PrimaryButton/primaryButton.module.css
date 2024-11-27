@@ -7,7 +7,7 @@
     text-align: center;
     font-size: 0.875rem; /* 14px */
     font-weight: 600;
-    border-radius: 3px;
+    border-radius: 50px;
     padding: 0 1rem; /* 16px */
     transition: background-color 0.15s ease, color 0.15s ease;
   }

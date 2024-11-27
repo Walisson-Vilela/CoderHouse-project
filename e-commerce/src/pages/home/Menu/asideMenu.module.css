@@ -1,0 +1,28 @@
+.content {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    padding-left: 5%;
+    border-right: #dedede 1px solid;
+    flex-direction: column;
+}
+.title {
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.listMenu {
+    padding: 0.8rem;  
+    border-bottom: 1px #ccc solid;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.5rem; /* Define uma altura fixa para o container */
+    transition: font-size 0.5s ease-in-out; /* Suaviza a transição da fonte */
+  }
+  .listMenu:hover {
+    background-color: #f0f0f0; /* Cor de fundo levemente mais escura */
+    cursor: pointer; /* Muda o cursor para indicar interatividade */
+    font-weight: 800;
+  }

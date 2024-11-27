@@ -8,7 +8,7 @@
   background-color: rgba(100, 116, 139, 0.1); /* slate-300/30 */
   height: 3rem; /* 32px */
   padding: 0.25rem 1rem; /* 4px top/bottom, 16px left/right */
-  border-radius: 3px; /* rounded-full */
+  border-radius: 50px; /* rounded-full */
   font-size: 0.875rem; /* 14px */
   width: 100%;
   outline-color: var(

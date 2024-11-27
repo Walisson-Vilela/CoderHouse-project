@@ -1,9 +1,0 @@
-.content {
-    width: 100%;
-    max-width: 360px;
-    display: flex;
-    padding-left: 5%;
-    border-right: #dedede 1px solid;
-    flex-direction: column;
-
-}

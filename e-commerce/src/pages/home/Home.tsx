@@ -1,6 +1,6 @@
 import { Header } from "../../components/Header/Navbar/Navbar";
 import SortProductMenu from "../../components/Header/SortProductMenu/SortProductMenu";
-import Aside from "./Aside/Aside";
+import AsideMenu from "./Menu/AsideMenu";
 import Section from "./section/Section";
 import styles from './home.module.css';
 
@@ -10,7 +10,7 @@ function Home() {
       <Header name={"Walisson"} />
       <SortProductMenu />
       <div className={styles.content}>
-        <Aside />
+        <AsideMenu />
         <Section />
       </div>
     </div>
