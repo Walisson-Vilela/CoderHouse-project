@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./asideMenu.module.css";
 
 const AsideMenu = () => {
-  const categories = ["Smartphones", "Áudio", "Smartwatch", "Informática", "Home-Office", "Casa Inteligente", "Carregadores"];
+  const categories = ["Todos os produtos","Smartphones", "Áudio", "Smartwatch", "Informática", "Home-Office", "Casa Inteligente", "Carregadores"];
 
   return (
     <nav className={`p-3 ${styles.content}`}>

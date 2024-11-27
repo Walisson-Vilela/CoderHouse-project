@@ -12,11 +12,10 @@ const Header = ({ name }: Iprops) => {
       <span className={styles.companyName}>
         <img className={styles.logo} src="../../../../public/images/logo.jpg" />
       </span>
-      <span className={styles.searchCartContainer}>
+      <span className={styles.searchContainer}>
         <SearchInput />
       </span>
       <span className={styles.menu}>
-        <button className={styles.support}>Suporte</button>
         <span className={styles.login}>Walisson</span>
         <img
           className={styles.person}
@@ -24,7 +23,6 @@ const Header = ({ name }: Iprops) => {
         />
         <CartWidget />
       </span>
-      
     </nav>
   );
 };

@@ -20,12 +20,12 @@
   height: auto;
 }
 
-.searchCartContainer {
+.searchContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%; /* Ajuste conforme necessário */
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .menu {
@@ -34,8 +34,7 @@
   width: 40%;
 }
 
-.login,
-.support {
+.login {
   font-weight: 600;
   display: flex;
   flex-direction: row;
@@ -45,13 +44,8 @@
   background: none;
 }
 
-.support:hover {
-  color: var(--primaryColor);
-  background: none;
-}
-
 .person {
-  width: 32px;
+  width: 2rem;
   margin: 0 2rem 0 0.5rem;
   height: auto;
   cursor: pointer;

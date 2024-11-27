@@ -1,12 +1,64 @@
 .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5%;
-    height: 54px;
-    flex-direction: row;
-    background: white;
-    width: 100%;
-    align-items: center;
-    border-bottom: #dedede 1px solid;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  height: 54px;
+  flex-direction: row;
+  background: white;
+  width: 100%;
+  align-items: center;
+  border-bottom: #dedede 1px solid;
+}
+
+.dropdownContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Espaço entre o texto "Ordenar" e o dropdown */
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  width: 10rem;
+}
+
+.dropdownHeader {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  user-select: none;
+  width: 100%;
+  display: flex; /* Corrigido para flex */
+  justify-content: space-between; /* Espaça os elementos internamente */
+  align-items: center; /* Alinha os itens verticalmente */
+}
+
+.dropdownHeader:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.5rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  z-index: 10;
+}
+
+.dropdownOption {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  width: 100%; /* Garante que os itens tenham a mesma largura */
+}
+
+.dropdownOption:hover {
+  background-color: #f0f0f0;
+}

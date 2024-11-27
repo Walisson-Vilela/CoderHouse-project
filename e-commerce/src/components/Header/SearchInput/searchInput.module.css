@@ -1,19 +1,18 @@
 .container {
   padding: 0 3rem;
   position: relative;
-  width: 100%;
+  width: 70%;
 }
 
 .input {
-  background-color: rgba(100, 116, 139, 0.1); /* slate-300/30 */
+  /* background-color: rgba(230, 230, 230, 0.3); */
   height: 3rem; /* 32px */
   padding: 0.25rem 1rem; /* 4px top/bottom, 16px left/right */
   border-radius: 50px; /* rounded-full */
   font-size: 0.875rem; /* 14px */
   width: 100%;
-  outline-color: var(
-    --secondaryColor
-  ); /* primaryColor, ajuste para a cor desejada */
+  border: 1px #ccc solid;
+  outline-color: var(--secondaryColor);
 }
 
 .icon {
@@ -22,5 +21,5 @@
   top: 50%;
   transform: translateY(-50%);
   color: rgba(107, 114, 128, 0.5); /* gray-500/50 */
-  padding-top: 0.125rem; /* ajuste de alinhamento */
+  padding-top: 0.2rem; /* ajuste de alinhamento */
 }
