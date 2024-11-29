@@ -1,23 +1,13 @@
 .section {
-    margin-top: 1rem;
     font-size: 1rem; /* Ajuste conforme necessário */
   }
-  
-  .stock {
-    display: block;
-    margin-bottom: 1rem;
-    font-weight: bold;
-  }
-  
+
   .itemCountContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
-    padding: 1rem;
-    min-height: 9rem; /* Altura mínima */
-    border: 4px solid #ccc; /* Borda */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  
   }
   
   .controls {
@@ -33,9 +23,5 @@
     text-align: center;
     font-size: 1.25rem; /* Tamanho maior para o contador */
   }
-  
-  button {
-    font-size: 1.25rem; /* Tamanho do botão */
-    padding: 0.5rem 1rem;
-  }
+
   

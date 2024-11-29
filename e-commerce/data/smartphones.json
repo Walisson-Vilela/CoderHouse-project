@@ -5,11 +5,14 @@
     "brand": "Xiaomi",
     "price": 1109.95,
     "category": "smartphone",
+    "discount": 10, 
     "image": "../public/images/smartphones/SmartphonePocoX6 Pro.png",
     "rating": {
       "rate": 3.9,
       "count": 120
-    }
+    },
+    "soldLast24Hours": 2,
+    "stock": 30
   },
   {
     "id": 2,
@@ -17,11 +20,14 @@
     "brand": "Apple",
     "price": 4999.99,
     "category": "smartphone",
+    "discount": 0, 
     "image": "../public/images/smartphones/iphone14.png",
     "rating": {
-      "rate": 4.8,
+      "rate": 2.8,
       "count": 200
-    }
+    },
+    "soldLast24Hours": 0,
+    "stock": 15
   },
   {
     "id": 3,
@@ -29,11 +35,14 @@
     "brand": "Samsung",
     "price": 1799.99,
     "category": "smartphone",
+    "discount": 11, 
     "image": "../public/images/smartphones/samsung-galaxy-s23-ultra-black-transparent-image-free-png.webp",
     "rating": {
       "rate": 4.5,
       "count": 350
-    }
+    },
+    "soldLast24Hours": 2,
+    "stock": 0
   },
   {
     "id": 4,
@@ -41,11 +50,14 @@
     "brand": "Motorola",
     "price": 1499.99,
     "category": "smartphone",
+    "discount": 11, 
     "image": "../public/images/smartphones/MotorolaEdge30.webp",
     "rating": {
       "rate": 4.2,
       "count": 180
-    }
+    },
+    "soldLast24Hours": 14,
+    "stock": 25
   },
   {
     "id": 5,
@@ -53,11 +65,14 @@
     "brand": "OnePlus",
     "price": 699.99,
     "category": "smartphone",
+    "discount": 8, 
     "image": "../public/images/smartphones/onePlus11.png",
     "rating": {
       "rate": 4.6,
       "count": 230
-    }
+    },
+    "soldLast24Hours": 18,
+    "stock": 40
   },
   {
     "id": 6,
@@ -65,11 +80,14 @@
     "brand": "Nokia",
     "price": 1249.99,
     "category": "smartphone",
+    "discount": 8, 
     "image": "../public/images/smartphones/nokia-G50-ocean_blue-front_back-int.png",
     "rating": {
       "rate": 4.0,
       "count": 100
-    }
+    },
+    "soldLast24Hours": 8,
+    "stock": 30
   },
   {
     "id": 7,
@@ -77,11 +95,14 @@
     "brand": "Xiaomi",
     "price": 1199.99,
     "category": "smartphone",
+    "discount": 0, 
     "image": "../public/images/smartphones/XiaomiRedmiNote12.webp",
     "rating": {
       "rate": 4.3,
       "count": 150
-    }
+    },
+    "soldLast24Hours": 4,
+    "stock": 20
   },
   {
     "id": 8,
@@ -89,11 +110,14 @@
     "brand": "Samsung",
     "price": 1349.99,
     "category": "smartphone",
+    "discount": 10, 
     "image": "../public/images/smartphones/Samsung Galaxy A54.png",
     "rating": {
       "rate": 4.4,
       "count": 250
-    }
+    },
+    "soldLast24Hours": 1,
+    "stock": 35
   },
   {
     "id": 9,
@@ -101,11 +125,14 @@
     "brand": "Huawei",
     "price": 899.99,
     "category": "smartphone",
+    "discount": 5, 
     "image": "../public/images/smartphones/Huawei-P50-Pro,4G,-256GB,-Cocoa-Gold.png",
     "rating": {
       "rate": 4.7,
       "count": 170
-    }
+    },
+    "soldLast24Hours": 2,
+    "stock": 60
   },
   {
     "id": 10,
@@ -113,11 +140,14 @@
     "brand": "Google",
     "price": 599.99,
     "category": "smartphone",
+    "discount": 0, 
     "image": "../public/images/smartphones/GooglePixel7.webp",
     "rating": {
       "rate": 4.3,
       "count": 220
-    }
+    },
+    "soldLast24Hours": 0,
+    "stock": 10
   },
   {
     "id": 11,
@@ -125,11 +155,14 @@
     "brand": "Sony",
     "price": 1099.99,
     "category": "smartphone",
+    "discount": 0, 
     "image": "../public/images/smartphones/sony-xperia-1-iv-05.jpg",
     "rating": {
       "rate": 4.5,
       "count": 190
-    }
+    },
+    "soldLast24Hours": 7,
+    "stock": 15
   },
   {
     "id": 12,
@@ -137,11 +170,14 @@
     "brand": "Realme",
     "price": 549.99,
     "category": "smartphone",
+    "discount": 9, 
     "image": "../public/images/smartphones/RealmeGT2Pro.avif",
     "rating": {
       "rate": 4.3,
       "count": 210
-    }
+    },
+    "soldLast24Hours": 12,
+    "stock": 20
   },
   {
     "id": 13,
@@ -149,11 +185,14 @@
     "brand": "Oppo",
     "price": 949.99,
     "category": "smartphone",
+    "discount": 3, 
     "image": "../public/images/smartphones/OppoFindX5Pro.webp",
     "rating": {
       "rate": 4.6,
       "count": 180
-    }
+    },
+    "soldLast24Hours": 8,
+    "stock": 25
   },
   {
     "id": 14,
@@ -161,11 +200,14 @@
     "brand": "Asus",
     "price": 699.99,
     "category": "smartphone",
+    "discount": 11, 
     "image": "../public/images/smartphones/AsusZenfone9.png",
     "rating": {
       "rate": 4.5,
       "count": 150
-    }
+    },
+    "soldLast24Hours": 2,
+    "stock": 30
   },
   {
     "id": 15,
@@ -173,11 +215,14 @@
     "brand": "ZTE",
     "price": 1099.99,
     "category": "smartphone",
+    "discount": 10, 
     "image": "../public/images/smartphones/ZTEAxon40Ultra.jpg",
     "rating": {
       "rate": 4.4,
       "count": 160
-    }
+    },
+    "soldLast24Hours": 14,
+    "stock": 18
   },
   {
     "id": 16,
@@ -185,11 +230,14 @@
     "brand": "Lenovo",
     "price": 2999.99,
     "category": "smartphone",
+    "discount": 0, 
     "image": "../public/images/smartphones/Lenovo-Legion-2-Pro-Phone_arenamobiles.jpg",
     "rating": {
       "rate": 4.3,
       "count": 120
-    }
+    },
+    "soldLast24Hours": 16,
+    "stock": 10
   },
   {
     "id": 17,
@@ -197,11 +245,14 @@
     "brand": "Nokia",
     "price": 1399.99,
     "category": "smartphone",
+    "discount": 0, 
     "image": "../public/images/smartphones/nokia-X20-nordic_blue-front_back-int.png",
     "rating": {
       "rate": 4.0,
       "count": 100
-    }
+    },
+    "soldLast24Hours": 0,
+    "stock": 50
   },
   {
     "id": 18,
@@ -209,11 +260,14 @@
     "brand": "Samsung",
     "price": 1299.99,
     "category": "smartphone",
+    "discount": 0, 
     "image": "../public/images/smartphones/SamsungGalaxyZFlip5.webp",
     "rating": {
       "rate": 4.5,
       "count": 190
-    }
+    },
+    "soldLast24Hours": 0,
+    "stock": 20
   },
   {
     "id": 19,
@@ -221,11 +275,14 @@
     "brand": "Xiaomi",
     "price": 1799.99,
     "category": "smartphone",
+    "discount": 10, 
     "image": "../public/images/smartphones/XiaomiMi11Ultra.png",
     "rating": {
       "rate": 4.6,
       "count": 200
-    }
+    },
+    "soldLast24Hours": 0,
+    "stock": 45
   },
   {
     "id": 20,
@@ -233,10 +290,13 @@
     "brand": "Sony",
     "price": 1399.99,
     "category": "smartphone",
+    "discount": 5, 
     "image": "../public/images/smartphones/SonyXperia10III.avif",
     "rating": {
       "rate": 4.0,
       "count": 130
-    }
+    },
+    "soldLast24Hours": 5,
+    "stock": 50
   }
 ]
