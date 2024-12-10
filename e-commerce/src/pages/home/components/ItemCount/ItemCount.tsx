@@ -39,8 +39,6 @@ const ItemCount = () => {
             name="+"
           />
         </div>
- 
-
         <SecondaryButton
           disabled={false}
           onClick={() => handleClick("add")}

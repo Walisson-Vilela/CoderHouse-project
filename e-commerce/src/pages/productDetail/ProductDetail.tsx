@@ -49,7 +49,7 @@ const ProductDetail: React.FC = () => {
             <p className={styles.productPrice}>{availabilityMessage}</p>
           ) : (
             <p className={styles.productPrice}>
-              Disponibilidade: {availabilityMessage}
+              Disponibilidade: {product.stock} Unidades {availabilityMessage}
             </p>
           )}
 
@@ -64,7 +64,8 @@ const ProductDetail: React.FC = () => {
           >
             <Rating
               name="read-only"
-              value={product.rating?.rate || 0} // Usando o rating.rate do produto, ou 0 caso não exista
+              value={product.rating?.rate || 0} 
+              precision={0.5} 
               readOnly
             />
             <span>{product.rating.count} avaliações</span>

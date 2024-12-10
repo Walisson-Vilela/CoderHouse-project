@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PrimaryButton from "../../../../components/PrimaryButton/PrimaryButton";
+import Box from "@mui/material/Box";
+import Rating from "@mui/material/Rating"; // Importando o Rating do MUI
 import styles from "./card.module.css";
 
 interface IProducts {
@@ -10,6 +12,7 @@ interface IProducts {
   image: string;
   rating: {
     count: number;
+    rate: number; // Incluindo o valor da avaliação
   };
 }
 
@@ -55,16 +58,15 @@ const Card: React.FC<ItemProps> = ({ product }) => {
         </div>
       </div>
       <p className={styles.cardTitle}>{product.title}</p>
-
-      {/* Renderizar preço com ou sem desconto */}
+      <div className={styles.ratingContainer}>
+        <Box sx={{ display: "flex", margin: '0.5rem 0', alignItems: "center" }}>
+          <Rating name="read-only" value={product.rating?.rate || 0}precision={0.5} size="small" readOnly />
+        </Box>
+      </div>
       {hasDiscount ? (
         <div className={styles.priceContainer}>
-          <p className={styles.originalPrice}>
-            R$ {product.price.toFixed(2)}
-          </p>
-          <p className={styles.discountedPrice}>
-            R$ {discountedPrice}
-          </p>
+          <p className={styles.originalPrice}>R$ {product.price.toFixed(2)}</p>
+          <p className={styles.discountedPrice}>R$ {discountedPrice}</p>
         </div>
       ) : (
         <p className={styles.cardPrice}>R$ {product.price.toFixed(2)}</p>
@@ -73,10 +75,9 @@ const Card: React.FC<ItemProps> = ({ product }) => {
       {product.price > 100 && (
         <p className={styles.cardInstallment}>
           Em até 10x de R$
-          {(hasDiscount
-            ? discountedPrice / 10
-            : product.price / 10
-          ).toFixed(2)}{" "}
+          {(hasDiscount ? discountedPrice / 10 : product.price / 10).toFixed(
+            2
+          )}{" "}
           sem juros
         </p>
       )}
