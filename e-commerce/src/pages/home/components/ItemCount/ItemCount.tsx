@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Button from "../../../../components/PrimaryButton/PrimaryButton";
 import styles from './itemCount.module.css';
-import SecondaryButton from "../../../../components/SecondaryButton/SecondaryButton";
 
 const ItemCount = () => {
   const [count, setCount] = useState<number>(1);
@@ -24,7 +23,7 @@ const ItemCount = () => {
 
   return (
     <section className={styles.section}>
-      {/* <span className={styles.stock}>Estoque: {stock}</span> */}
+      <span className={styles.stock}>Estoque: {stock}</span>
       <div className={styles.itemCountContainer}>
         <div className={styles.controls}>
           <Button
@@ -39,7 +38,12 @@ const ItemCount = () => {
             name="+"
           />
         </div>
+<<<<<<< HEAD
         <SecondaryButton
+=======
+
+        <Button
+>>>>>>> parent of 2c2fb8e (Ajustes no layout do componente de detalhe do produto)
           disabled={false}
           onClick={() => handleClick("add")}
           name="Adicionar ao carrinho"

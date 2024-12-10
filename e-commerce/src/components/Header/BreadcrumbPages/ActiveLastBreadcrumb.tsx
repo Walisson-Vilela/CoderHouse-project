@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 
-const ActiveLastBreadcrumb: React.FC = () => {
+const DynamicBreadcrumbs: React.FC = () => {
   const location = useLocation(); // Obtém a URL atual
   const pathnames = location.pathname.split("/").filter((x) => x);
 
@@ -33,4 +33,4 @@ const ActiveLastBreadcrumb: React.FC = () => {
   );
 };
 
-export default ActiveLastBreadcrumb;
+export default DynamicBreadcrumbs;
